@@ -16,9 +16,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         length: 50
-    },
-    rol: { 
-        enum: ['admin', 'maestro', 'alumno'],
     }
 });
 
